@@ -154,7 +154,7 @@ textarea::placeholder {
   margin-right: 8px;
 }
 
-.footer {
+#footer {
   margin-top: 40px;
   display: flex;
   align-items: center;
