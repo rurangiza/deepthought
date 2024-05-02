@@ -1,10 +1,6 @@
-APP_DIR = ./sample/
 
-run:
-	flask --app $(APP_DIR)core run
-
-run_debug:
-	flask --app $(APP_DIR)core run --debug
+all:
+	python3 ./src/main.py
 
 env:
-	. .venv/bin/activate
+	source .venv/bin/activate
